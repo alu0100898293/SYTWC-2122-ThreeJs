@@ -47,16 +47,16 @@ const styles = {
     height: 26,
     textAlign: 'center',
     borderRadius: '5px',
-    boxShadow: '0 0 20px 0px #fe2079',
-    border: '3px solid #fe2079'
+    boxShadow: '0 0 20px 0px #14e8bb',
+    border: '3px solid #14e8bb'
   },
   bar: {
     height: 20,
     width: '100%',
-    background: '#fe2079',
+    background: '#14e8bb',
     transition: 'transform 200ms',
     transformOrigin: 'left center',
-    boxShadow: '0 0 20px 0px #fe2079'
+    boxShadow: '0 0 20px 0px #14e8bb'
   },
   data: {
     textAlign: 'center',
@@ -66,6 +66,6 @@ const styles = {
     fontSize: '2em',
     fontFamily: `'Commando', mono, monospace, -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", "Helvetica Neue", Helvetica, Arial, Roboto, Ubuntu, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"`,
     whiteSpace: 'nowrap',
-    textShadow: '0 0 20px #fe2079'
+    textShadow: '0 0 20px #14e8bb'
   },
 }
