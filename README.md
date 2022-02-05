@@ -36,6 +36,11 @@ npm install -force
 npm start
 ```
 La instrucción de instalación precia del flag _-force_, debido a que se utilizan las versiones aún en prueba de React, lo cual provoca avisos de incompatibilidad.
+
+## Despliegue online
+
+El proyecto se encuentra desplegado en la plataforma Vercel y puede probar online en este [enlace](https://sytwc-2122-three-js.vercel.app/).
+
 ## Capturas
 
 ![](./public/menu.png)
