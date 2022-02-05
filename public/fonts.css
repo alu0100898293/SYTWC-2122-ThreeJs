@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'Road Rage';
+  src: local('Road Rage'), url(../fonts/Road_Rage.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Retro';
+  src: local('Retro'), url(../fonts/Retro_Computer.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Retronoid';
+  src: local('Retronoid'), url(../fonts/Retronoid.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Commando';
+  src: local('Commando'), url(../fonts/commando.ttf) format('truetype');
+}
