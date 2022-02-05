@@ -14,8 +14,6 @@ function Sound() {
 
   const camera = useStore(s => s.camera)
   const musicEnabled = useStore(s => s.musicEnabled)
-  const level = useStore(s => s.level)
-  const gameStarted = useStore(s => s.gameStarted)
   const gameOver = useStore(s => s.gameOver)
   const successClick = useStore(s => s.successClick)
 

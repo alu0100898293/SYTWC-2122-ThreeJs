@@ -1,4 +1,3 @@
-import { Color } from 'three'
 import { createRef } from 'react'
 import create from 'zustand'
 
@@ -23,7 +22,6 @@ const useStore = create((set, get) => {
     previousScores : '',
     directionalLight: createRef(),
     camera: createRef(),
-    ship: createRef(),
     sun: createRef(),
     hasInteracted: false,
     setHasInteracted: () => set(strandomInRangeate => ({ hasInteracted: true })),
@@ -39,7 +37,6 @@ const useStore = create((set, get) => {
     setNumFigures: (num) => set(state => ({ numFigures: num})),
     setPlayTime: (play) => set(state => ({ playTime: play})),
     setCoordinates: (coord) => set(state => ({ coordinates: coord})),
-    setSequence: (seq) => set(state => ({ sequence: seq})),
     setNewLevel: (newLev) => set(state => ({ newLevel: newLev })),
     setSuccessClick: (success) => set(state => ({ successClick: success })),
     setSequenceLightTime: (lightTime) => set(state => ({ sequenceLightTime: lightTime })),
